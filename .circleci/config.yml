@@ -1,0 +1,29 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: "circleci/buildpack-deps:bionic"
+    steps:
+      - checkout
+      - run:
+          name: Update packages
+          command: 'sudo apt-get update'
+      - run:
+          name: Install build-essential
+          command: 'sudo apt-get install -y build-essential'
+      - run:
+          name: Install cmake
+          command: 'sudo apt-get install -y cmake'
+      - run:
+          name: Install curl
+          command: 'sudo apt-get install -y curl'
+      - run:
+          name: Install unzip
+          command: 'sudo apt-get install -y unzip'
+      - run:
+          name: run all.sh
+          command: './all.sh'
+      - store_artifacts:
+          path: dist/akumuli.tar.gz
+          destination: akumuli.tar.gz

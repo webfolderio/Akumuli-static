@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+akumuli/
+apr/
+apr-util/
+boost/
+dist/
+expat/
+install/
+libmicrohttpd/
+log4cxx/
+sqlite3/
+
