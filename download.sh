@@ -41,7 +41,7 @@ tar xfz expat-2.2.9.tar.gz
 rm -f expat-2.2.9.tar.gz
 mv expat-2.2.9 expat
 
-curl -L -O https://github.com/akumuli/Akumuli/archive/v0.8.71.zip
-unzip -q v0.8.71.zip
-mv Akumuli-0.8.71 akumuli
-rm -f v0.8.71.zip
+curl -L -O https://github.com/akumuli/Akumuli/archive/v0.8.73.zip
+unzip -q v0.8.73.zip
+mv Akumuli-0.8.73 akumuli
+rm -f v0.8.73.zip
