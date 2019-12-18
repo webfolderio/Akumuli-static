@@ -4,4 +4,4 @@
 
 ## Download
 
-[akumulid 0.8.72](https://github.com/webfolderio/Akumuli-static-ubuntu/releases/download/0.8.72/akumuli-0.8.72.tar.gz) - 2.61 MB
+[akumulid 0.8.73](https://github.com/webfolderio/Akumuli-static-ubuntu/releases/download/0.8.73/akumuli-0.8.73.tar.gz) - 2.68 MB
