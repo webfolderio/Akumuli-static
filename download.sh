@@ -1,5 +1,10 @@
 #!/bin/bash
 
+curl -O -L https://github.com/beltoforion/muparser/archive/v2.2.6.1.zip
+unzip -q v2.2.6.1.zip
+mv muparser-2.2.6.1 muparser
+rm -f v2.2.6.1.zip
+
 curl -O -L https://sourceforge.net/projects/boost/files/boost/1.65.1/boost_1_65_1.tar.bz2/download
 mv download boost_1_65_1.tar.bz2
 tar xf boost_1_65_1.tar.bz2

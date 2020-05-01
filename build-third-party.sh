@@ -3,6 +3,13 @@
 rm -rf $BUILD_DIR/install
 mkdir $BUILD_DIR/install
 
+cd muparser
+./configure --prefix=$INSTALL_DIR --enable-shared=no --enable-samples=no
+make clean
+make
+make install
+cd ..
+
 cd boost
 ./bootstrap.sh 
 ./b2 --clean
