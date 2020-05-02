@@ -27,5 +27,6 @@ jobs:
       - store_artifacts:
           path: akumuli.tar.gz
           destination: akumuli.tar.gz
+      - store_artifacts:
           path: akumuli-library.tar.gz
           destination: akumuli-library.tar.gz
