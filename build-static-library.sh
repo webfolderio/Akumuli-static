@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp CMakeLists.root akumuli/CMakeLists.txt
+cp CMakeLists.root.lib akumuli/CMakeLists.txt
 cp CMakeLists.lib-static akumuli/libakumuli/CMakeLists.txt
 cp CMakeLists.daemon akumuli/akumulid/CMakeLists.txt
 

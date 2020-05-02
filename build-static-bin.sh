@@ -9,6 +9,3 @@ cp CMakeLists.daemon akumuli/akumulid/CMakeLists.txt
 mkdir -p $BUILD_DIR/dist
 cp akumuli/build/akumulid/akumulid $BUILD_DIR/dist
 strip $BUILD_DIR/dist/akumulid
-
-#mkdir -p $BUILD_DIR/dist/static-lib
-#cp akumuli/build/libakumuli/libakumuli.a $BUILD_DIR/dist/static-lib

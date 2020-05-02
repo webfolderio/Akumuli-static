@@ -151,7 +151,7 @@ include(GNUInstallDirs)
 include_directories(./include)
 
 add_subdirectory(libakumuli)
-add_subdirectory(akumulid)
+#add_subdirectory(akumulid)
 #add_subdirectory(perftests)
 #add_subdirectory(functests)
 #add_subdirectory(fuzzers)

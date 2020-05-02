@@ -25,5 +25,5 @@ jobs:
           name: run all.sh
           command: './all.sh'
       - store_artifacts:
-          path: dist/akumuli.tar.gz
+          path: akumuli.tar.gz
           destination: akumuli.tar.gz

@@ -41,4 +41,6 @@ install/
 libmicrohttpd/
 log4cxx/
 sqlite3/
+muparser/
 
+akumuli.tar.gz
