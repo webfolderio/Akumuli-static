@@ -10,4 +10,4 @@ export INSTALL_DIR=$BUILD_DIR/install
 ./build-third-party.sh
 ./build-static-bin.sh
 ./build-static-library.sh
-tar -zcvf akumuli.tar.gz dist/
+

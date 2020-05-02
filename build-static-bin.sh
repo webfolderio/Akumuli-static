@@ -6,6 +6,5 @@ cp CMakeLists.daemon akumuli/akumulid/CMakeLists.txt
 
 ./build-akumuli.sh
 
-mkdir -p $BUILD_DIR/dist
-cp akumuli/build/akumulid/akumulid $BUILD_DIR/dist
-strip $BUILD_DIR/dist/akumulid
+strip akumuli/build/akumulid/akumulid
+tar -zcvf akumuli.tar.gz akumuli/build/akumulid/akumulid
