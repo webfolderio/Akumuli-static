@@ -13,6 +13,4 @@ cp akumuli/include/akumuli_def.h $BUILD_DIR/dist/include
 cp -rp install/* $BUILD_DIR/dist
 cp -rp boost/* $BUILD_DIR/dist
 
-tar -zcf akumuli-library.tar.gz $BUILD_DIR/dist
-
-
+tar -zcf akumuli-library.tar.gz dist
