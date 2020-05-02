@@ -6,8 +6,9 @@ export BUILD_DIR=$(pwd)
 export BOOST_ROOT=$BUILD_DIR/boost
 export INSTALL_DIR=$BUILD_DIR/install
 
-#./download.sh
-#./build-third-party.sh
-#./build-static-bin.sh
+./download.sh
+./build-third-party.sh
+./build-static-bin.sh
+./build-static-library.sh
 ./build-shared-library.sh
 tar -zcvf akumuli.tar.gz dist/

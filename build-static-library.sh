@@ -1,11 +1,5 @@
 #!/bin/bash
 
-cp CMakeLists.root.lib akumuli/CMakeLists.txt
-cp CMakeLists.lib-static akumuli/libakumuli/CMakeLists.txt
-cp CMakeLists.daemon akumuli/akumulid/CMakeLists.txt
-
-./build-akumuli.sh
-
 mkdir -p $BUILD_DIR/dist/static-lib
 cp akumuli/build/libakumuli/libakumuli.a $BUILD_DIR/dist/static-lib
 
