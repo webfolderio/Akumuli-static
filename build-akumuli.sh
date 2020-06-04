@@ -33,5 +33,4 @@ cd ..
 mkdir -p $INSTALL_DIR/boost
 cp -rp boost/* $INSTALL_DIR/boost
 
-cd $INSTALL_DIR
 tar -zcf akumuli-library.tar.gz install
