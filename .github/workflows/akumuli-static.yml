@@ -25,3 +25,15 @@ jobs:
          sudo cp -rp *.* /usr/local/share/akumuli-static
          cd /usr/local/share/akumuli-static
          sudo ./all.sh
+
+    - name: Archive akumulid
+      uses: actions/upload-artifact@v1
+      with:
+        name: akumuli.tar.gz
+        path: /usr/local/share/akumuli-static/akumuli.tar.gz
+
+    - name: Archive libakumuli and dependencies
+      uses: actions/upload-artifact@v1
+      with:
+        name: akumuli.tar.gz
+        path: /usr/local/share/akumuli-static/akumuli-library.tar.gz
