@@ -8,6 +8,4 @@ export INSTALL_DIR=$BUILD_DIR/install
 
 ./download.sh
 ./build-third-party.sh
-./build-static-bin.sh
-./build-static-library.sh
-
+./build-akumuli.sh

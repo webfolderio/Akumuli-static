@@ -43,4 +43,5 @@ log4cxx/
 sqlite3/
 muparser/
 
-akumuli.tar.gz
+*.tar.gz
+

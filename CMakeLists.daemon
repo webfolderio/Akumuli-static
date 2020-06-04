@@ -29,13 +29,12 @@ target_link_libraries(akumulid
 #include(CppcheckTargets)
 #add_cppcheck(akumulid UNUSED_FUNCTIONS STYLE POSSIBLE_ERROR FORCE)
 
-
-#install(
-#    TARGETS
-#        akumulid
-#    RUNTIME DESTINATION
-#        ${CMAKE_INSTALL_BINDIR}
-#)
+install(
+    TARGETS
+        akumulid
+    RUNTIME DESTINATION
+        ${CMAKE_INSTALL_BINDIR}
+)
 
 set(CPACK_GENERATOR "RPM;DEB")
 

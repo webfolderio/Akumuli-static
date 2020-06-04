@@ -82,3 +82,19 @@ set_target_properties(akumuli PROPERTIES
 
 include_directories(.)
 
+install(
+    TARGETS
+        akumuli
+    LIBRARY DESTINATION
+        ${CMAKE_INSTALL_LIBDIR}
+)
+
+install(
+    FILES ../include/akumuli_version.h
+	  ../include/akumuli_config.h
+	  ../include/akumuli.h
+	  ../include/akumuli_def.h
+    DESTINATION
+        ${CMAKE_INSTALL_INCLUDEDIR}
+)
+

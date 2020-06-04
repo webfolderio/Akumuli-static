@@ -11,10 +11,10 @@ tar xf boost_1_65_1.tar.bz2
 rm -f boost_1_65_1.tar.bz2
 mv boost_1_65_1 boost
 
-curl -O -L https://www.sqlite.org/2019/sqlite-autoconf-3300100.tar.gz
-tar xfz sqlite-autoconf-3300100.tar.gz
-rm -f sqlite-autoconf-3300100.tar.gz
-mv sqlite-autoconf-3300100 sqlite3
+curl -O -L https://sqlite.org/2020/sqlite-autoconf-3320100.tar.gz
+tar xfz sqlite-autoconf-3320100.tar.gz
+rm -f sqlite-autoconf-3320100.tar.gz
+mv sqlite-autoconf-3320100 sqlite3
 
 curl -L -O https://github.com/libexpat/libexpat/releases/download/R_2_2_9/expat-2.2.9.tar.gz
 tar xfz expat-2.2.9.tar.gz
