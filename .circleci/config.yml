@@ -14,7 +14,7 @@ jobs:
           command: 'sudo apt-get install -y build-essential'
       - run:
           name: Install cmake
-          command: 'sudo apt-get install -y cmake'
+          command: 'wget https://github.com/Kitware/CMake/releases/download/v3.17.3/cmake-3.17.3-Linux-x86_64.sh && sudo cmake-3.17.3-Linux-x86_64.sh && rm -f cmake-3.17.3-Linux-x86_64.sh'
       - run:
           name: Install curl
           command: 'sudo apt-get install -y curl'
