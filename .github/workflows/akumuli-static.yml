@@ -21,7 +21,7 @@ jobs:
 
     - name: build
       run: |
-         mkdir -p /usr/local/share/akumuli-static
-         cp -rp * /usr/local/share/akumuli-static
+         sudo mkdir -p /usr/local/share/akumuli-static
+         sudo cp -rp *.* /usr/local/share/akumuli-static
          cd /usr/local/share/akumuli-static
-         ./all.sh
+         sudo ./all.sh
