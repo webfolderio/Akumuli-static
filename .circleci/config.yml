@@ -14,7 +14,14 @@ jobs:
           command: 'sudo apt-get install -y build-essential'
       - run:
           name: Install cmake
-          command: 'wget https://github.com/Kitware/CMake/releases/download/v3.17.3/cmake-3.17.3-Linux-x86_64.sh && sudo cmake-3.17.3-Linux-x86_64.sh && rm -f cmake-3.17.3-Linux-x86_64.sh'
+          command: |
+             # https://askubuntu.com/a/1157132
+             sudo apt purge --auto-remove cmake
+             wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
+             sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ bionic main'
+             sudo apt update
+             sudo apt install cmake
+             cmake --version
       - run:
           name: Install curl
           command: 'sudo apt-get install -y curl'
