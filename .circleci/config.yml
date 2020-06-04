@@ -24,9 +24,9 @@ jobs:
       - run:
           name: Build akumuli
           command: |
-            mkdir -p /usr/local/share/akumuli-static
-            cp -rp . /usr/local/share/akumuli-static
-            ./all.sh
+            sudo mkdir -p /usr/local/share/akumuli-static
+            sudo cp -rp . /usr/local/share/akumuli-static
+            sudo ./all.sh
       - store_artifacts:
           path: /usr/local/share/akumuli-static/akumuli.tar.gz
           destination: akumuli.tar.gz
