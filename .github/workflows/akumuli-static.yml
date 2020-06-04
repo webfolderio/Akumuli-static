@@ -11,10 +11,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: install nodejs 12
+    - name: install build essentials
       run: |
          sudo apt-get update
          sudo apt-get install -y build-essential
          sudo apt-get install -y cmake
          sudo apt-get install -y curl
          sudo apt-get install -y unzip
+
+    - name: build
+      run: |
+         mkdir -p /usr/local/share/akumuli-static
+         cp -rp * /usr/local/share/akumuli-static
+         cd /usr/local/share/akumuli-static
+         ./all.sh
