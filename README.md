@@ -1,6 +1,6 @@
 # Akumuli-static
 
-[![Build](https://github.com/webfolderio/Akumuli-static/workflows/akumuli-static/badge.svg)](https://github.com/webfolderio/Akumuli-static/actions)
+[![circleci](https://img.shields.io/circleci/build/github/webfolderio/Akumuli-static/master?label=Ubuntu)](https://circleci.com/gh/webfolderio/Akumuli-static)
 
 ## Download
 
