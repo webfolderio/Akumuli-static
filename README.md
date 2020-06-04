@@ -1,6 +1,6 @@
 # Akumuli-static
 
-[![circleci](https://img.shields.io/circleci/build/github/webfolderio/Akumuli-static/master?label=Ubuntu)](https://circleci.com/gh/webfolderio/Akumuli-static)
+[![circleci](https://img.shields.io/circleci/build/github/webfolderio/Akumuli-static/master?label=Ubuntu&nbsp;18.04)](https://circleci.com/gh/webfolderio/Akumuli-static)
 
 ## Download
 
