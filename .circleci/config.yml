@@ -23,13 +23,10 @@ jobs:
           command: 'sudo apt-get install -y unzip'
       - run:
           name: Build akumuli
-          command: |
-            sudo mkdir -p /usr/local/share/akumuli-static
-            sudo cp -rp . /usr/local/share/akumuli-static
-            sudo ./all.sh
+          command: ./all.sh
       - store_artifacts:
-          path: /usr/local/share/akumuli-static/akumuli.tar.gz
+          path: akumuli.tar.gz
           destination: akumuli.tar.gz
       - store_artifacts:
-          path: /usr/local/share/akumuli-static/akumuli-library.tar.gz
+          path: akumuli-library.tar.gz
           destination: akumuli-library.tar.gz
