@@ -4,6 +4,6 @@
 
 ## Download
 
-[akumulid 0.8.77](https://github.com/webfolderio/Akumuli-static/releases/download/0.8.77/akumuli-0.8.77.tar.gz) - 2.63 MB
+[akumulid 0.8.80](https://github.com/webfolderio/Akumuli-static/releases/download/0.8.80/akumuli-0.8.80.tar.gz) - 2.63 MB
 
-[akumuli-library-0.8.77.tar.gz](https://github.com/webfolderio/Akumuli-static/releases/download/0.8.77/akumuli-library-0.8.77.tar.gz) - 108 MB
+[akumuli-library-0.8.80.tar.gz](https://github.com/webfolderio/Akumuli-static/releases/download/0.8.80/akumuli-library-0.8.80.tar.gz) - 110 MB
